@@ -1,18 +1,87 @@
 #no-mobile {
-    position: absolute;
-    z-index: 99;
-    height: 100vh;
-    background-color: var(--yellow);
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    top: 0;
-  }
-  
-@media screen and (max-width: 645px) {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-image: url('https://wallpapercave.com/wp/wp8817362.jpg');
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+  color: #fefdff;
+  font-family: "Open Sans", sans-serif;    
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background: url("https://wallpapercave.com/wp/wp8817362.jpg") no-repeat center/cover;
+}
+@media screen and (max-width: 700px) and (max-height: 1244px) {
   #no-mobile {
-    display: none; asdfasdf
+    display: none;
   }
+}
+@keyframes snowing {
+  0% {
+    transform: none;
+  }
+  100%{
+    right: 100%;
+    top: 100%;
+  }
+}
+.snow {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  filter: blur(0.5px);
+  -webkit-filter: blur(2px);
+}
+.snows{
+  animation: snowing 10s linear infinite;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+.snow:first-child{
+  position: relative;
+  right: 400%;
+  top: 400%;
+}
+.snow:nth-child(2){
+  position: relative;
+  right: 200%;
+  top: 200%;
+}
+.snow:nth-child(3){
+  position: relative;
+  right: -200%;
+  top: -200%;
+}
+.snow:nth-child(4){
+  position: relative;
+  right: -400%;
+  top: -400%;
+}
+.snow:nth-child(5){
+  position: relative;
+  right: -600%;
+  top: -600%;
+}
+.snow:nth-child(6){
+  position: relative;
+  right: -800%;
+  top: -800%;
+}
+.snow:nth-child(7){
+  position: relative;
+  right: 800%;
+  top: 800%;
+}
+.snow:nth-child(8){
+  position: relative;
+  right: 600%;
+  top: 600%;
 }

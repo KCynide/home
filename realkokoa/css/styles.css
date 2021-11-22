@@ -21,11 +21,16 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 
-body {
-  color: #2e363e;
+#background {
+  color: #fefdff;
   font-family: "Open Sans", sans-serif;
+  background-image: url('https://wallpapercave.com/wp/wp8817362.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background: url("https://wallpapercave.com/wp/wp8817362.jpg") no-repeat center/cover;
 }
-
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
