@@ -13,6 +13,11 @@
   width: 60%;
   opacity: 0.7;
 }
+#background__id{
+  background-image: url('https://7wallpapers.net/wp-content/uploads/Frozen-2-15-1349x2400.jpg');
+  background-size: cover;
+  color: rgba(255, 255, 255, 1);
+}
 #login-form {
   display: flex;
   flex-direction: column;
@@ -29,7 +34,7 @@
   transition: border-color 0.3s ease-in-out;
 }
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.4);
 }
 #login-form input:focus {
   border-color: var(--yellow);
